@@ -1,0 +1,19 @@
+*.terraform*
+# Local .terraform directory
+.terraform.lock.hcl
+*.exe*
+# Local .exe files
+*.tfstate
+# Terraform state files
+*.tfstate.*
+# Backup files
+
+.terraform/
+*.terraform*
+.terraform.lock.hcl
+*.exe*
+*.tfstate
+*.tfstate.*
+*.json
+#git rm --cached -r .terraform
+#git commit -m "Remove .terraform directory from repository"
