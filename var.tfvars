@@ -1,6 +1,16 @@
 credentials_file = "credsfile/sa-tf-v2teksol-creds.json"
 project_id    = "total-amp-461506-v3"
 region        = "us-central1"
+
+/*
+# Map of locations (key-value pair)
+location = {
+    apac = "eastasia"
+    emea = "northeurope"
+    amer = "eastus"
+}
+*/
+
 vpc_name      = "vpc-v2teksol"
 
 subnets = [
