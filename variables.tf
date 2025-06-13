@@ -13,6 +13,14 @@ variable "region" {
     type        = string
 }
 
+/*
+variable "location" {
+    description = "The GCP region"
+    type        = map
+    description = "A map of locations"
+}
+*/
+
 variable "vpc_name" {
     description = "The name of the VPC network"
     type        = string
